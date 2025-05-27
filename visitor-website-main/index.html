@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> CMU Guided Tour</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="language.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <img src="images/hammerschlag.png" alt="Hammerschlag Hall">
+    <img src="images/cmu.jpg" alt="CMU Logo" class="pad">
+    
+    <p class = "header">Guided Tour</p>
+
+    <div class="dropdown">
+        <button onclick="toggleDropdown()" class="dropbtn"><span class="pad">Choose Language</span><span class="arrow">&#9660;</span></button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#" onclick="selectLanguage('Deutsch')">Deutsch</a>
+            <a href="#" onclick="selectLanguage('English')">English</a>
+            <a href="#" onclick="selectLanguage('Français')">Français</a>
+            <a href="#" onclick="selectLanguage('Italiano')">Italiano</a>
+            <a href="#" onclick="selectLanguage('中文')">中文</a>
+            <a href="#" onclick="selectLanguage('日本語')">日本語</a>
+            <a href="#" onclick="selectLanguage('हिन्दी')">हिन्दी</a>
+            <a href="#" onclick="selectLanguage('Polski')">Polski</a>
+        </div>
+    </div>
+
+    <a href="detail.html">
+        <button type="submit" class="submit-btn">Start</button>
+    </a>
+</body>
+</html>
